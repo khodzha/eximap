@@ -1,7 +1,7 @@
 defmodule Eximap.Mixfile do
   use Mix.Project
 
-  @version "0.1.1-dev"
+  @version "0.1.2-dev"
 
   def project do
     [
@@ -45,7 +45,7 @@ defmodule Eximap.Mixfile do
   defp deps do
     [
       {:credo, "~> 0.8.8", only: [:dev, :test], runtime: false},
-      {:ex_doc, "~> 0.16", only: [:dev, :test], runtime: false},
+      {:ex_doc, "~> 0.19", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.7.4", only: [:dev, :test], runtime: false},
     ]
   end
